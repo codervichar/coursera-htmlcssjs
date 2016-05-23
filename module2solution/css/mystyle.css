@@ -39,14 +39,11 @@ p {
 }
 
 /********** Tablet devices only **********/
-
 @media (min-width: 768px) and (max-width: 991px) 
 {
-
 	#p1,#p2,#p3
 	{
-		padding:25px;
-		
+		padding:25px;		
 	}
 	#firstpara
 	{
@@ -100,10 +97,9 @@ p {
 		width: 100%;
 		display: block;
 	}
-	.section 
+
+	#p1,#p2,#p3
 	{
-		
+		padding:25px;	
 	}
 }
-
-
