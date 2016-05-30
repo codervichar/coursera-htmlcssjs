@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (min-width: 768px) {
+	#collapsable-nav
+	{
+		display:none;
+		
+	}
+
+
+}
+
+.navbar-header
+{
+	border-bottom:1px solid black;
+}
+.navbar-default .navbar-nav > li  {
+	border-bottom:1px solid black;
+}
+
+
+.container > .jumbotron
+{
+	border-radius: 0px
+}
+
+.jumbotron
+{
+	border:2px;
+    		
+
+
+}
+.navbar-nav
+{
+	margin-bottom: 0px;
+}
+
+#collapsable-nav
+{
+	background-color: white;
+}
+
+.navigationbar {
+	text-align: left;
+	padding-left: 10px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:black;
+}
+
+.menu {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.smallmenu {
+	font-weight: bold;
+	font-size: 20px;	
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
